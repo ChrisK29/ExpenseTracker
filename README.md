@@ -18,6 +18,6 @@ This Budgeting app called ExpenseTracker will help you keep track your income an
 
 ## Wire frames
 <p align="center">
-<img src=".Wireframes/appdiagram.jpg" alt="Results" width="800px">
+<img src="Wireframes/appdiagram.jpg" alt="Results" width="800px">
 </p>
 
