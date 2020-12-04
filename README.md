@@ -25,4 +25,3 @@ This Budgeting app called ExpenseTracker will help you keep track your income an
 
 ### Total time 
 * 48 hours
-*
