@@ -17,4 +17,4 @@ This Budgeting app called ExpenseTracker will help you keep track your income an
 * Graphs and pies of expenses
 
 ## Wire frames
-![Alt](wireframes/appdiagram.JPG)
+![Alt](Wireframes/appdiagram.jpg)
