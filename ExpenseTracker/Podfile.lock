@@ -1,0 +1,39 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.6)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - Toast-Swift (5.0.1)
+  - WWCalendarTimeSelector (1.3.13)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - SQLite.swift (~> 0.12.0)
+  - Toast-Swift (~> 5.0.1)
+  - WWCalendarTimeSelector (from `https://github.com/wvabrinskas/WWCalendarTimeSelector`, branch `swift5`)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - SQLite.swift
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  WWCalendarTimeSelector:
+    :branch: swift5
+    :git: https://github.com/wvabrinskas/WWCalendarTimeSelector
+
+CHECKOUT OPTIONS:
+  WWCalendarTimeSelector:
+    :commit: 46ab5ff4c1d60668dc3c5ff7ecc7e17749646d9c
+    :git: https://github.com/wvabrinskas/WWCalendarTimeSelector
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  WWCalendarTimeSelector: 334f8b4ff16367d75fb9f21073203641fbd3d749
+
+PODFILE CHECKSUM: 801c6790cdad48ec73aa37501366be43b1b29ba6
+
+COCOAPODS: 1.10.0
