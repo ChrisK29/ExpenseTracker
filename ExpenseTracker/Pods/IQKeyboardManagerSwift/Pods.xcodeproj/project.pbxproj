@@ -1,0 +1,1869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0147E406621803BAB7BCE042925923B9 /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD7E5C887900646D059CE50367869B1 /* Int+Timepiece.swift */; };
+		03F6349BC7F1C0F3BDFD63082CCE32DB /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C468309CF617FE5212B2303B814FD2 /* FTS4.swift */; };
+		0AAB61DCDE444629C7A3B1C4389D2921 /* Pods-balanceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DC005BD8451C9529EAA738D87527D1 /* Pods-balanceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		102F4487BC4ADC3C2B56A0470E0A9468 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82757ED795D82DFF6656DE83E87617F9 /* IQKeyboardManagerConstantsInternal.swift */; };
+		10427DA3A99FF5C6199081645909D625 /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28432871D6FCC79888D49F2C42074FB /* NSDateComponents+Timepiece.swift */; };
+		13DC37325FD7C005D5757A7A24879CFB /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E974588F16422EDE423CDB3EEFEEE7A7 /* Expression.swift */; };
+		16E32D96D226F5CA5ECE9021B4448A2C /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F9126A1BB2789D894066558008FCE5 /* Connection.swift */; };
+		18808F9C139BA0E9059E72980F0BF908 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F517CAF516B40E42E86CE9EB98ABAABC /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		188E0D4F7200FED3C7A1245F9F913072 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23060360184BA38FB2D09D729033108E /* Coding.swift */; };
+		1B13B36FAC4CB8F57794A2B328FDA679 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96978B22F911AB14C28825B5EEF03109 /* CoreFunctions.swift */; };
+		2024EE5E265681137A9FEBC630E6E0F1 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E1FAE30EBE578D7786A4E958FD564C /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2358B57B83BE526AED64799C6892B2CE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */; };
+		259D6FC80BCFE785471F743B1F533970 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5FF192DCC0DCD76D533DB1CCE8B51 /* IQNSArray+Sort.swift */; };
+		2C4F38367FEF4F7C72224D9EB87B7F71 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967448D11DE320F44B41FD83C7B478F /* Blob.swift */; };
+		31AAD13A75FA67A504E265924E542827 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7BCF427FF357ED12D973ECBDA9AD /* Statement.swift */; };
+		33483C1C427390BED308CBAB3EEEE277 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */; };
+		348B481DC980D7B5252368E2A54CFBF9 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981FD90BDA4F1D9486A17BE07200645A /* Foundation.swift */; };
+		3689C1000CDACEB0231E1941C265D24B /* Pods-balance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 482877A34299195F4D533B663A3CB9AB /* Pods-balance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382087C227DE3F9AE5C2F7FC13E86DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		38EE0727B33503FD20E1363988E46AB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D60AC13D33197690A05C641925DDDA /* UIKit.framework */; };
+		3A16D47B42888C300DE47F46A5848854 /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA271E036654953AEF42930D75877426 /* NSDate+Timepiece.swift */; };
+		3F091C427A3E96117C902E8EA143729E /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0448BA60C6F604880767111B486A890 /* IQKeyboardManager.swift */; };
+		444D048C8F52A4002F068AE6198AA5B7 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BF3CD80F01A1FA3229CBAE836D960E /* Query.swift */; };
+		4737103B10A1C40C5301D0512B9310E4 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01596920618E0CBF9B67666BA0279594 /* IQKeyboardReturnKeyHandler.swift */; };
+		4753716AE7A1AB22FB6BA61AA74D942F /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F10B941808D22C3C4878AB4502AD4A /* Toast.swift */; };
+		4A50D35274D871E14260F93489F87E32 /* SQLiteObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE250025D2E0F357E4EEF413B16EAD5 /* SQLiteObjc.m */; };
+		4C069FA7FAA45154DA92CF5DF3BCDCA9 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A716FD5600D5688640F3157B0D46576 /* IQUITextFieldView+Additions.swift */; };
+		4E3EDCB1C27B3725FD8AEFD7E61B9E17 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D68E5B138ECC5F93F692F2E1F1F7F9 /* RTree.swift */; };
+		4F0CF2AD58CF0D08BC090E7AF0DD63D7 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB75124264DB1258DAC0E63E75146CF /* IQInvocation.swift */; };
+		5044FEAEF09468B6964F9F37A1F1F45C /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23D9321EB51FD4A3FD05D62A7CB1979 /* IQPreviousNextView.swift */; };
+		5099CC63F1118EC48DAE7A2991C36CD4 /* Pods-balanceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C50DBFDED957E2EF9ABA42A026C2B63 /* Pods-balanceTests-dummy.m */; };
+		5AB7AA2D47C8BD4ED779FB58ADD2EB19 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A0AFA41B08A49A3C837CD27D35D34 /* Operators.swift */; };
+		5BA891FB2BE2492499DD30FAD3D2F399 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB0AFD191D7F595A0F516716BB7887C /* Value.swift */; };
+		5D1D42009E941070E4EDDE947A881181 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AA6CACF7D53169AB16F9D74C846C65 /* Errors.swift */; };
+		5F75157A5075DECD1D4512F9A6744CA6 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 639C3B001B513DDB25A0EC4A75AB5728 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		62A85277D0462C43B80A05E8822794BB /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E0CF0CCBA95F394A3899E24D6D8F3B /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F339D752FFF174485AB6F96EC6FA7E /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABEB5802130CC3A0F548E3C907EFE4B /* SQLite.swift-dummy.m */; };
+		6B326644BB08AEDF697A82A0F1A66D68 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0AB1D636FD6693C1BD5D549FA5525 /* Toast-Swift-dummy.m */; };
+		6B4C6149C0D4CDF364C60337328FFE95 /* Pods-balance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B3DD821835FA91537AC84687925853 /* Pods-balance-dummy.m */; };
+		74341DA37F4B926FDF4CB2599CAC547A /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD35E4E606369A7C98CC1A0EAB5C6C /* IQUIViewController+Additions.swift */; };
+		753C8C42CEFBED94E1F1E752955F0254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		7635DCC029C954298681EA5F58862255 /* Pods-balance-balanceUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C11C826997946F097BF9F8B25ECD8A /* Pods-balance-balanceUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78095B727929AE197AD00137F0D35B5F /* WWCalendarTimeSelector.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E05E06CF0EB109FC85DEE0FD36F3D28 /* WWCalendarTimeSelector.storyboard */; };
+		79E43357E56514CD6FE8A6F4B1D28C2E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A8B62289110B9DDA81958A76DC063E /* Helpers.swift */; };
+		7FB3576FD619DD256294BAD7E5F83CBE /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F404C86A5794B737D052088EB644D067 /* IQTextView.swift */; };
+		805DFDDB2799629E508E2C55B247A04A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		8B439A47AA5FDEF67AD63BDDB808AC5A /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EE91D9928B15AEA6C41A23BAF470F /* IQUIView+Hierarchy.swift */; };
+		8C6BBE622771EB3AAD6B360ED555E329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		980E5594F8DBCE362764AEDC2F086E36 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E8BDCC6F3929917757779C7BA66E64 /* IQToolbar.swift */; };
+		99619CFC4AE18681C16ACB8A9546E806 /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69374026C59A81C44F5C04BC9E4A19 /* NSCalendar+Timepiece.swift */; };
+		9B3A040DEACD188FBA57F28AFAADB057 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BA803FA5054281C84FE308C6C214D /* AggregateFunctions.swift */; };
+		A42659683986F68D9D4F244F1DB71C2F /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD940441F441CA80BC2D9995EAF3C0 /* FTS5.swift */; };
+		A8AF12EE0A0F92A00485DFC841D8CE2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		A966409E4EB7EB56CBE6C9DFA0FC5B94 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F0665AD4775D078106AB728B04749 /* DateAndTimeFunctions.swift */; };
+		AD184AD8807039BC3DD57F2972D80869 /* WWCalendarTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902261E55B24D522A915764428375C2 /* WWCalendarTimeSelector.swift */; };
+		AE3B246482DCD60BA846EA3CE983A1FB /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C291CE731D867A8C1766B3F9282B739B /* IQUIView+IQKeyboardToolbar.swift */; };
+		AE725E55DB3AF91F2FE7FC95F3392D4A /* WWCalendarTimeSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5631DE8D8220D24EA590044AAA5E1A3E /* WWCalendarTimeSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFE334F2B3A7682AC13782C78091FFC0 /* WWCalendarTimeSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C27AFE93B34EDD95957B211534BACCFB /* WWCalendarTimeSelector-dummy.m */; };
+		B1D89872AC365C78155FF44EE9F28FEF /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = F3543F3AC1EEE7C53F9047D1A5BE783A /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98378C55379E1B92897F11A22E38443 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B562A4F13B95C0B5AB9222E805B1FF /* IQKeyboardManagerSwift-dummy.m */; };
+		C04C5F1F1D6B337F87E157B55A747E41 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC1E4F4B001AA3ED856CD28D336559E /* IQKeyboardManagerConstants.swift */; };
+		C0EB3776478AB80676E488BC9C9CDA3C /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CC2DB073771902391BD131DEFE3F5C /* IQUIScrollView+Additions.swift */; };
+		C35DCE97EB77150C41E735DB57BD6616 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986167FAB65232F17B2221D3B2E4529B /* IQTitleBarButtonItem.swift */; };
+		C64E97D5FC0802B08D7CA36AEC74A422 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4E54EFB2E4A907FD6C221BE7A7190 /* CustomFunctions.swift */; };
+		C894DD3463E9F6DE3F120BB75827AEEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		D6E6E2AA38E0E6B0B7D1E0891F4FD12D /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A1A369DDBC1099755E0091DFEC43AB /* Setter.swift */; };
+		DCE6DD9222C347A4E73E28704D90607D /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80EFA8006F302617745E7EB1DB9971A /* Duration.swift */; };
+		DDE417BA9D13D2BB98316DF0512A1944 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448925A4429682BDC9D076A8BB810D75 /* IQBarButtonItem.swift */; };
+		E091BBF88182A5BA410655D82D180DAD /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE20479CF5D3E91144364628AA6CBE5 /* String+Timepiece.swift */; };
+		E30AFF09BE355906C38B27B0CD35F806 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */; };
+		ED1230752D752282FBB2D861E557061A /* WWCalendarTimeSelectorStoryboardBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1B56989985428ADB03B7DF70D883C4F /* WWCalendarTimeSelectorStoryboardBundle.bundle */; };
+		EE966B1A61C1960A3BBC22A783C27272 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533DA3C3E6FE903855D7D3B0C78A63A /* Collation.swift */; };
+		EEF066616EFE6EBC57541C1B92C6770A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		EF5E32C13CFA779B953F8F81AE3C67D6 /* SQLiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C79B9C4DA0C2DF8469C83DD118DF0B /* SQLiteObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6BB6C198A2522FF0633261964EB2A24 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC76ED270119EC2A8D5FBA6AB4E23A31 /* Schema.swift */; };
+		F7D46662E090354D55FB377128617581 /* Pods-balance-balanceUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 087AF5AF4636E303F01968C57DC36A63 /* Pods-balance-balanceUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		158FDC92075B4962DC5CC0E4C920D0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB73748774C4AE7CE5A579AE8E483C91;
+			remoteInfo = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+		};
+		18371A048DB59768D7E5E950CE174C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B990BD87169C76A3ED3FE8A9258D91A3;
+			remoteInfo = "Toast-Swift";
+		};
+		384FA6D1FD4A521BD97A713EED4CC81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C64BA317B75D3987836081F8A1FCA2;
+			remoteInfo = WWCalendarTimeSelector;
+		};
+		8628D7469F6FE15338006799A990B6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		8C52C626AC0FB73AB439F1E1B1A3CF48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		9184630D14F5AF36AEAFA16CFBFD0A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+		AEB888AB5B0E38426B317416AAAF75C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E56E5FBA5D813A40B45D4589A76D08;
+			remoteInfo = "Pods-balance";
+		};
+		D0023CE96C0C427622D048694401D82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+		E11DD158281DAE8B540F389C48F7697C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B990BD87169C76A3ED3FE8A9258D91A3;
+			remoteInfo = "Toast-Swift";
+		};
+		E1A1D9E9269C07D9CD6237A2F7AB3DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C64BA317B75D3987836081F8A1FCA2;
+			remoteInfo = WWCalendarTimeSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01596920618E0CBF9B67666BA0279594 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		02354CB70231A14B4F865FC952146DC4 /* Pods-balance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-balance.release.xcconfig"; sourceTree = "<group>"; };
+		04D60AC13D33197690A05C641925DDDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0530594AB9D40F0A0B27DEC8312DA0EA /* Toast-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		078627B211AFD36BA3FB71A8D7F4E403 /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
+		07C0AB1D636FD6693C1BD5D549FA5525 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		087AF5AF4636E303F01968C57DC36A63 /* Pods-balance-balanceUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-balance-balanceUITests-dummy.m"; sourceTree = "<group>"; };
+		0CB0AFD191D7F595A0F516716BB7887C /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		0FF9BBF034E9E819509E13C7C7243B27 /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		1085DAC55EBF86CA6891E0D32C0DF3BE /* WWCalendarTimeSelector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WWCalendarTimeSelector.release.xcconfig; sourceTree = "<group>"; };
+		1438E977B03D513C3B1462B23A650FEA /* Pods_balance_balanceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_balance_balanceUITests.framework; path = "Pods-balance-balanceUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CD05B6742913F9720C6A74CF68FADA /* Pods-balance-balanceUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-balance-balanceUITests.modulemap"; sourceTree = "<group>"; };
+		1682C56D3CDB744EF39F85210E150840 /* SQLite.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.release.xcconfig; sourceTree = "<group>"; };
+		16B3DD821835FA91537AC84687925853 /* Pods-balance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-balance-dummy.m"; sourceTree = "<group>"; };
+		16F312E7F072BFD8388D16CEC62000D3 /* Pods-balance-balanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-balance-balanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1902E0E4DF349EEE32DE5130C7475F80 /* Pods-balance-balanceUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-balance-balanceUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CD7E5C887900646D059CE50367869B1 /* Int+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Timepiece.swift"; path = "Sources/Int+Timepiece.swift"; sourceTree = "<group>"; };
+		22BD35E4E606369A7C98CC1A0EAB5C6C /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		23060360184BA38FB2D09D729033108E /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+		242F3F89877CCCBE0958770105C3A2C7 /* IQKeyboardManagerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.release.xcconfig; sourceTree = "<group>"; };
+		245A80F3BF5563B9D12AC1C21251452F /* Pods-balance-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-balance-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25BF3CD80F01A1FA3229CBAE836D960E /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		28E8BDCC6F3929917757779C7BA66E64 /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		2902261E55B24D522A915764428375C2 /* WWCalendarTimeSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WWCalendarTimeSelector.swift; path = Sources/WWCalendarTimeSelector.swift; sourceTree = "<group>"; };
+		2A716FD5600D5688640F3157B0D46576 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		2ABEB5802130CC3A0F548E3C907EFE4B /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		30053A7F6E889623C9E8801260A0DFED /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		34CC2DB073771902391BD131DEFE3F5C /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		364129D3D492DB122D98F154E053E749 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		3C50DBFDED957E2EF9ABA42A026C2B63 /* Pods-balanceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-balanceTests-dummy.m"; sourceTree = "<group>"; };
+		3F3BA803FA5054281C84FE308C6C214D /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		448925A4429682BDC9D076A8BB810D75 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		482877A34299195F4D533B663A3CB9AB /* Pods-balance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-balance-umbrella.h"; sourceTree = "<group>"; };
+		49233FCA58C7EFBAA15A79FA790EA25C /* ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-WWCalendarTimeSelector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-WWCalendarTimeSelector-Info.plist"; sourceTree = "<group>"; };
+		4E05E06CF0EB109FC85DEE0FD36F3D28 /* WWCalendarTimeSelector.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = WWCalendarTimeSelector.storyboard; path = Sources/WWCalendarTimeSelector.storyboard; sourceTree = "<group>"; };
+		4EC4E54EFB2E4A907FD6C221BE7A7190 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		55E0CF0CCBA95F394A3899E24D6D8F3B /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		5631DE8D8220D24EA590044AAA5E1A3E /* WWCalendarTimeSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWCalendarTimeSelector-umbrella.h"; sourceTree = "<group>"; };
+		56BD7BCF427FF357ED12D973ECBDA9AD /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		58FD8E6917F99E0891214583F9E35DE9 /* Pods-balance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-balance.debug.xcconfig"; sourceTree = "<group>"; };
+		5E93FE3666444136987FB0A4B06E2898 /* Pods-balance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-balance.modulemap"; sourceTree = "<group>"; };
+		62F78A6385AD70ADCDCD36EEA1F481CB /* WWCalendarTimeSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWCalendarTimeSelector-prefix.pch"; sourceTree = "<group>"; };
+		62FCF24197327C2BBFC62D165D93351D /* Pods-balance-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-balance-Info.plist"; sourceTree = "<group>"; };
+		639C3B001B513DDB25A0EC4A75AB5728 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		65F10B941808D22C3C4878AB4502AD4A /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		6967448D11DE320F44B41FD83C7B478F /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		69F9126A1BB2789D894066558008FCE5 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		6B0E7263DA9C5C97032927A6A1DAE14C /* IQKeyboardManagerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.debug.xcconfig; sourceTree = "<group>"; };
+		6C1A7D07B57B0136D9EB9360161BC7B6 /* Pods-balanceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-balanceTests.modulemap"; sourceTree = "<group>"; };
+		70E707832D72D9039BD24212D0185329 /* Pods-balance-balanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-balance-balanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73DC005BD8451C9529EAA738D87527D1 /* Pods-balanceTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-balanceTests-umbrella.h"; sourceTree = "<group>"; };
+		76A8B62289110B9DDA81958A76DC063E /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C01390048978747107932AE7061F142 /* Pods-balance-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-balance-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FC3421780E4CFA733B83E3FF153F247 /* SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-Info.plist"; sourceTree = "<group>"; };
+		82757ED795D82DFF6656DE83E87617F9 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		83E1016064ABEDA05E82670FDFFA2AEA /* WWCalendarTimeSelector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WWCalendarTimeSelector-Info.plist"; sourceTree = "<group>"; };
+		840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		84C79B9C4DA0C2DF8469C83DD118DF0B /* SQLiteObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteObjc.h; path = Sources/SQLiteObjc/include/SQLiteObjc.h; sourceTree = "<group>"; };
+		8574F6AF579FF017F6F6A133B310221B /* Pods-balanceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-balanceTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		85D53C25770BEAE9DB20E9C7183A31A4 /* Pods-balance-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-balance-frameworks.sh"; sourceTree = "<group>"; };
+		89B562A4F13B95C0B5AB9222E805B1FF /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		90CDE23E7A7C0F98B57FA63BFFFE7128 /* SQLite.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.debug.xcconfig; sourceTree = "<group>"; };
+		92D68E5B138ECC5F93F692F2E1F1F7F9 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		94C11C826997946F097BF9F8B25ECD8A /* Pods-balance-balanceUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-balance-balanceUITests-umbrella.h"; sourceTree = "<group>"; };
+		96978B22F911AB14C28825B5EEF03109 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		978598F450058CC8A051B883E3A6B122 /* WWCalendarTimeSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WWCalendarTimeSelector.modulemap; sourceTree = "<group>"; };
+		981FD90BDA4F1D9486A17BE07200645A /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		986167FAB65232F17B2221D3B2E4529B /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		99C468309CF617FE5212B2303B814FD2 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1394F95F87B7BF48CF520C059714641 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		A23D9321EB51FD4A3FD05D62A7CB1979 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		A296826EB3B40C7F62B49E8B418E5ABF /* Pods-balance-balanceUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-balance-balanceUITests-Info.plist"; sourceTree = "<group>"; };
+		A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A7AA6CACF7D53169AB16F9D74C846C65 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		A89C09F4E4275C76E12D1EF3BDD8658E /* Pods-balanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-balanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9D28D7523D4316079DD2A9B69F0D1B /* Pods-balanceTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-balanceTests-Info.plist"; sourceTree = "<group>"; };
+		B5E1FAE30EBE578D7786A4E958FD564C /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		B6985631F76899277430DD4D3A20CBBF /* Pods-balance-balanceUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-balance-balanceUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BBE20479CF5D3E91144364628AA6CBE5 /* String+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Timepiece.swift"; path = "Sources/String+Timepiece.swift"; sourceTree = "<group>"; };
+		BC76ED270119EC2A8D5FBA6AB4E23A31 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		BCE250025D2E0F357E4EEF413B16EAD5 /* SQLiteObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQLiteObjc.m; path = Sources/SQLiteObjc/SQLiteObjc.m; sourceTree = "<group>"; };
+		BE69374026C59A81C44F5C04BC9E4A19 /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSCalendar+Timepiece.swift"; path = "Sources/NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
+		BF454D609B5D229F93AF4A00A811AD8F /* Pods-balanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-balanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF5F0665AD4775D078106AB728B04749 /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		BF6EE91D9928B15AEA6C41A23BAF470F /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		C162F18F8DD6104351BAA1946C3E1A65 /* Toast-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toast-Swift-Info.plist"; sourceTree = "<group>"; };
+		C27AFE93B34EDD95957B211534BACCFB /* WWCalendarTimeSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WWCalendarTimeSelector-dummy.m"; sourceTree = "<group>"; };
+		C28432871D6FCC79888D49F2C42074FB /* NSDateComponents+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDateComponents+Timepiece.swift"; path = "Sources/NSDateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		C291CE731D867A8C1766B3F9282B739B /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		C40A0AFA41B08A49A3C837CD27D35D34 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		C8FD940441F441CA80BC2D9995EAF3C0 /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		CA271E036654953AEF42930D75877426 /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDate+Timepiece.swift"; path = "Sources/NSDate+Timepiece.swift"; sourceTree = "<group>"; };
+		CC95F2782EF8B2647710A81B0A482528 /* Pods-balance-balanceUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-balance-balanceUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CCB75124264DB1258DAC0E63E75146CF /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		D0448BA60C6F604880767111B486A890 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		D1B56989985428ADB03B7DF70D883C4F /* WWCalendarTimeSelectorStoryboardBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WWCalendarTimeSelectorStoryboardBundle.bundle; path = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24B59290D425A47C1CBB51C507FEC63 /* Pods_balanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_balanceTests.framework; path = "Pods-balanceTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D533DA3C3E6FE903855D7D3B0C78A63A /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88406395D59694151CB7E0A4F8E0347 /* WWCalendarTimeSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WWCalendarTimeSelector.framework; path = WWCalendarTimeSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5C1D0D42834EEC9373E71B6760C7BE /* Pods_balance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_balance.framework; path = "Pods-balance.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E592F07BAF3D2281E7FA45B4F6CAA637 /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		E6A1A369DDBC1099755E0091DFEC43AB /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		E974588F16422EDE423CDB3EEFEEE7A7 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		EBE676BE6DAED1AD8DB6FB3255B92E60 /* Pods-balanceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-balanceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1C01D88CADBD3A0EB62D94C9689E4DF /* Toast-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		F2D5FF192DCC0DCD76D533DB1CCE8B51 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		F3233B961112A20A1D493A8BDCE65AFE /* WWCalendarTimeSelector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WWCalendarTimeSelector.debug.xcconfig; sourceTree = "<group>"; };
+		F3543F3AC1EEE7C53F9047D1A5BE783A /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		F404C86A5794B737D052088EB644D067 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		F517CAF516B40E42E86CE9EB98ABAABC /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.framework; path = SQLite.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80EFA8006F302617745E7EB1DB9971A /* Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = Sources/Duration.swift; sourceTree = "<group>"; };
+		FCF3579CA7BE8C106D27FA97C3AFF7BC /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		FDC1E4F4B001AA3ED856CD28D336559E /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19F94A898C5CB4CEAD838A7A149F9DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0319DC3386B59D6602012075BAF5BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382087C227DE3F9AE5C2F7FC13E86DEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F748D72B32BC0B3DEB91CF28949EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805DFDDB2799629E508E2C55B247A04A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2292E431F316076553538B7FBB63C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33483C1C427390BED308CBAB3EEEE277 /* CoreGraphics.framework in Frameworks */,
+				EEF066616EFE6EBC57541C1B92C6770A /* Foundation.framework in Frameworks */,
+				2358B57B83BE526AED64799C6892B2CE /* QuartzCore.framework in Frameworks */,
+				38EE0727B33503FD20E1363988E46AB2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457D6BE4888E28DA50BD640F270A7450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C894DD3463E9F6DE3F120BB75827AEEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6102CF7EA55F5A7D669F88BF0D1A701F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753C8C42CEFBED94E1F1E752955F0254 /* Foundation.framework in Frameworks */,
+				E30AFF09BE355906C38B27B0CD35F806 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DC26BE8ED6BB3E57EC282209CB9866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6BBE622771EB3AAD6B360ED555E329 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24B1B9721E6EB6573C59C76A5DC4635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AF12EE0A0F92A00485DFC841D8CE2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01810A4589D9A1D0533D93D3B9145AE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E05E06CF0EB109FC85DEE0FD36F3D28 /* WWCalendarTimeSelector.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		23B331284C627268F47530DF4AEC188D /* Pods-balanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C1A7D07B57B0136D9EB9360161BC7B6 /* Pods-balanceTests.modulemap */,
+				EBE676BE6DAED1AD8DB6FB3255B92E60 /* Pods-balanceTests-acknowledgements.markdown */,
+				8574F6AF579FF017F6F6A133B310221B /* Pods-balanceTests-acknowledgements.plist */,
+				3C50DBFDED957E2EF9ABA42A026C2B63 /* Pods-balanceTests-dummy.m */,
+				AA9D28D7523D4316079DD2A9B69F0D1B /* Pods-balanceTests-Info.plist */,
+				73DC005BD8451C9529EAA738D87527D1 /* Pods-balanceTests-umbrella.h */,
+				A89C09F4E4275C76E12D1EF3BDD8658E /* Pods-balanceTests.debug.xcconfig */,
+				BF454D609B5D229F93AF4A00A811AD8F /* Pods-balanceTests.release.xcconfig */,
+			);
+			name = "Pods-balanceTests";
+			path = "Target Support Files/Pods-balanceTests";
+			sourceTree = "<group>";
+		};
+		425264B3B8A9016AB2A81D0174C12ABB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF9BBF034E9E819509E13C7C7243B27 /* SQLite.swift.modulemap */,
+				2ABEB5802130CC3A0F548E3C907EFE4B /* SQLite.swift-dummy.m */,
+				7FC3421780E4CFA733B83E3FF153F247 /* SQLite.swift-Info.plist */,
+				E592F07BAF3D2281E7FA45B4F6CAA637 /* SQLite.swift-prefix.pch */,
+				F517CAF516B40E42E86CE9EB98ABAABC /* SQLite.swift-umbrella.h */,
+				90CDE23E7A7C0F98B57FA63BFFFE7128 /* SQLite.swift.debug.xcconfig */,
+				1682C56D3CDB744EF39F85210E150840 /* SQLite.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		5524AEF7652D0BC9D5E2622A9A41CD39 /* Pods-balance */ = {
+			isa = PBXGroup;
+			children = (
+				5E93FE3666444136987FB0A4B06E2898 /* Pods-balance.modulemap */,
+				245A80F3BF5563B9D12AC1C21251452F /* Pods-balance-acknowledgements.markdown */,
+				7C01390048978747107932AE7061F142 /* Pods-balance-acknowledgements.plist */,
+				16B3DD821835FA91537AC84687925853 /* Pods-balance-dummy.m */,
+				85D53C25770BEAE9DB20E9C7183A31A4 /* Pods-balance-frameworks.sh */,
+				62FCF24197327C2BBFC62D165D93351D /* Pods-balance-Info.plist */,
+				482877A34299195F4D533B663A3CB9AB /* Pods-balance-umbrella.h */,
+				58FD8E6917F99E0891214583F9E35DE9 /* Pods-balance.debug.xcconfig */,
+				02354CB70231A14B4F865FC952146DC4 /* Pods-balance.release.xcconfig */,
+			);
+			name = "Pods-balance";
+			path = "Target Support Files/Pods-balance";
+			sourceTree = "<group>";
+		};
+		5E7BC9C72211AF48DFE7CB8174B5BD36 /* WWCalendarTimeSelector */ = {
+			isa = PBXGroup;
+			children = (
+				F80EFA8006F302617745E7EB1DB9971A /* Duration.swift */,
+				1CD7E5C887900646D059CE50367869B1 /* Int+Timepiece.swift */,
+				BE69374026C59A81C44F5C04BC9E4A19 /* NSCalendar+Timepiece.swift */,
+				CA271E036654953AEF42930D75877426 /* NSDate+Timepiece.swift */,
+				C28432871D6FCC79888D49F2C42074FB /* NSDateComponents+Timepiece.swift */,
+				BBE20479CF5D3E91144364628AA6CBE5 /* String+Timepiece.swift */,
+				2902261E55B24D522A915764428375C2 /* WWCalendarTimeSelector.swift */,
+				01810A4589D9A1D0533D93D3B9145AE4 /* Resources */,
+				C2074A4B7FCAF3417C5BF28A3D0800B7 /* Support Files */,
+			);
+			name = WWCalendarTimeSelector;
+			path = WWCalendarTimeSelector;
+			sourceTree = "<group>";
+		};
+		60ED81BDB96B6C71AAB041B5E7856BBE /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				6E682BA2250AB526E59D253D591EC7C2 /* standard */,
+				425264B3B8A9016AB2A81D0174C12ABB /* Support Files */,
+			);
+			name = SQLite.swift;
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		6E682BA2250AB526E59D253D591EC7C2 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				3F3BA803FA5054281C84FE308C6C214D /* AggregateFunctions.swift */,
+				6967448D11DE320F44B41FD83C7B478F /* Blob.swift */,
+				23060360184BA38FB2D09D729033108E /* Coding.swift */,
+				D533DA3C3E6FE903855D7D3B0C78A63A /* Collation.swift */,
+				69F9126A1BB2789D894066558008FCE5 /* Connection.swift */,
+				96978B22F911AB14C28825B5EEF03109 /* CoreFunctions.swift */,
+				4EC4E54EFB2E4A907FD6C221BE7A7190 /* CustomFunctions.swift */,
+				BF5F0665AD4775D078106AB728B04749 /* DateAndTimeFunctions.swift */,
+				A7AA6CACF7D53169AB16F9D74C846C65 /* Errors.swift */,
+				E974588F16422EDE423CDB3EEFEEE7A7 /* Expression.swift */,
+				981FD90BDA4F1D9486A17BE07200645A /* Foundation.swift */,
+				639C3B001B513DDB25A0EC4A75AB5728 /* fts3_tokenizer.h */,
+				99C468309CF617FE5212B2303B814FD2 /* FTS4.swift */,
+				C8FD940441F441CA80BC2D9995EAF3C0 /* FTS5.swift */,
+				76A8B62289110B9DDA81958A76DC063E /* Helpers.swift */,
+				C40A0AFA41B08A49A3C837CD27D35D34 /* Operators.swift */,
+				25BF3CD80F01A1FA3229CBAE836D960E /* Query.swift */,
+				92D68E5B138ECC5F93F692F2E1F1F7F9 /* RTree.swift */,
+				BC76ED270119EC2A8D5FBA6AB4E23A31 /* Schema.swift */,
+				E6A1A369DDBC1099755E0091DFEC43AB /* Setter.swift */,
+				F3543F3AC1EEE7C53F9047D1A5BE783A /* SQLite.h */,
+				84C79B9C4DA0C2DF8469C83DD118DF0B /* SQLiteObjc.h */,
+				BCE250025D2E0F357E4EEF413B16EAD5 /* SQLiteObjc.m */,
+				56BD7BCF427FF357ED12D973ECBDA9AD /* Statement.swift */,
+				0CB0AFD191D7F595A0F516716BB7887C /* Value.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		733FCC99F6C08E11DB71F259BF811876 /* Pods-balance-balanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14CD05B6742913F9720C6A74CF68FADA /* Pods-balance-balanceUITests.modulemap */,
+				B6985631F76899277430DD4D3A20CBBF /* Pods-balance-balanceUITests-acknowledgements.markdown */,
+				1902E0E4DF349EEE32DE5130C7475F80 /* Pods-balance-balanceUITests-acknowledgements.plist */,
+				087AF5AF4636E303F01968C57DC36A63 /* Pods-balance-balanceUITests-dummy.m */,
+				CC95F2782EF8B2647710A81B0A482528 /* Pods-balance-balanceUITests-frameworks.sh */,
+				A296826EB3B40C7F62B49E8B418E5ABF /* Pods-balance-balanceUITests-Info.plist */,
+				94C11C826997946F097BF9F8B25ECD8A /* Pods-balance-balanceUITests-umbrella.h */,
+				16F312E7F072BFD8388D16CEC62000D3 /* Pods-balance-balanceUITests.debug.xcconfig */,
+				70E707832D72D9039BD24212D0185329 /* Pods-balance-balanceUITests.release.xcconfig */,
+			);
+			name = "Pods-balance-balanceUITests";
+			path = "Target Support Files/Pods-balance-balanceUITests";
+			sourceTree = "<group>";
+		};
+		94632F0754027E295C4F5A1788F0CBF0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5524AEF7652D0BC9D5E2622A9A41CD39 /* Pods-balance */,
+				733FCC99F6C08E11DB71F259BF811876 /* Pods-balance-balanceUITests */,
+				23B331284C627268F47530DF4AEC188D /* Pods-balanceTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9D9D6DE977155D461342DC2F1EAA93DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				364129D3D492DB122D98F154E053E749 /* Toast-Swift.modulemap */,
+				07C0AB1D636FD6693C1BD5D549FA5525 /* Toast-Swift-dummy.m */,
+				C162F18F8DD6104351BAA1946C3E1A65 /* Toast-Swift-Info.plist */,
+				A1394F95F87B7BF48CF520C059714641 /* Toast-Swift-prefix.pch */,
+				B5E1FAE30EBE578D7786A4E958FD564C /* Toast-Swift-umbrella.h */,
+				0530594AB9D40F0A0B27DEC8312DA0EA /* Toast-Swift.debug.xcconfig */,
+				F1C01D88CADBD3A0EB62D94C9689E4DF /* Toast-Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9D206BABE81E6BF0B9B23880B238CC7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2074A4B7FCAF3417C5BF28A3D0800B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49233FCA58C7EFBAA15A79FA790EA25C /* ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-WWCalendarTimeSelector-Info.plist */,
+				978598F450058CC8A051B883E3A6B122 /* WWCalendarTimeSelector.modulemap */,
+				C27AFE93B34EDD95957B211534BACCFB /* WWCalendarTimeSelector-dummy.m */,
+				83E1016064ABEDA05E82670FDFFA2AEA /* WWCalendarTimeSelector-Info.plist */,
+				62F78A6385AD70ADCDCD36EEA1F481CB /* WWCalendarTimeSelector-prefix.pch */,
+				5631DE8D8220D24EA590044AAA5E1A3E /* WWCalendarTimeSelector-umbrella.h */,
+				F3233B961112A20A1D493A8BDCE65AFE /* WWCalendarTimeSelector.debug.xcconfig */,
+				1085DAC55EBF86CA6891E0D32C0DF3BE /* WWCalendarTimeSelector.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WWCalendarTimeSelector";
+			sourceTree = "<group>";
+		};
+		C290C472C08332E11E20EEFFAB2E48E0 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				448925A4429682BDC9D076A8BB810D75 /* IQBarButtonItem.swift */,
+				CCB75124264DB1258DAC0E63E75146CF /* IQInvocation.swift */,
+				D0448BA60C6F604880767111B486A890 /* IQKeyboardManager.swift */,
+				FDC1E4F4B001AA3ED856CD28D336559E /* IQKeyboardManagerConstants.swift */,
+				82757ED795D82DFF6656DE83E87617F9 /* IQKeyboardManagerConstantsInternal.swift */,
+				01596920618E0CBF9B67666BA0279594 /* IQKeyboardReturnKeyHandler.swift */,
+				F2D5FF192DCC0DCD76D533DB1CCE8B51 /* IQNSArray+Sort.swift */,
+				A23D9321EB51FD4A3FD05D62A7CB1979 /* IQPreviousNextView.swift */,
+				F404C86A5794B737D052088EB644D067 /* IQTextView.swift */,
+				986167FAB65232F17B2221D3B2E4529B /* IQTitleBarButtonItem.swift */,
+				28E8BDCC6F3929917757779C7BA66E64 /* IQToolbar.swift */,
+				34CC2DB073771902391BD131DEFE3F5C /* IQUIScrollView+Additions.swift */,
+				2A716FD5600D5688640F3157B0D46576 /* IQUITextFieldView+Additions.swift */,
+				BF6EE91D9928B15AEA6C41A23BAF470F /* IQUIView+Hierarchy.swift */,
+				C291CE731D867A8C1766B3F9282B739B /* IQUIView+IQKeyboardToolbar.swift */,
+				22BD35E4E606369A7C98CC1A0EAB5C6C /* IQUIViewController+Additions.swift */,
+				D4EE552E9025A94583467B26290E7052 /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				D29FCFB1D25C608082A2984570B8221C /* Pods */,
+				E058B8C58388EA800FD09736058D7F06 /* Products */,
+				94632F0754027E295C4F5A1788F0CBF0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D29FCFB1D25C608082A2984570B8221C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C290C472C08332E11E20EEFFAB2E48E0 /* IQKeyboardManagerSwift */,
+				60ED81BDB96B6C71AAB041B5E7856BBE /* SQLite.swift */,
+				DE2F9A5CC5AA9995F5B18627DBA9BD22 /* Toast-Swift */,
+				5E7BC9C72211AF48DFE7CB8174B5BD36 /* WWCalendarTimeSelector */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4EE552E9025A94583467B26290E7052 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCF3579CA7BE8C106D27FA97C3AFF7BC /* IQKeyboardManagerSwift.modulemap */,
+				89B562A4F13B95C0B5AB9222E805B1FF /* IQKeyboardManagerSwift-dummy.m */,
+				078627B211AFD36BA3FB71A8D7F4E403 /* IQKeyboardManagerSwift-Info.plist */,
+				30053A7F6E889623C9E8801260A0DFED /* IQKeyboardManagerSwift-prefix.pch */,
+				55E0CF0CCBA95F394A3899E24D6D8F3B /* IQKeyboardManagerSwift-umbrella.h */,
+				6B0E7263DA9C5C97032927A6A1DAE14C /* IQKeyboardManagerSwift.debug.xcconfig */,
+				242F3F89877CCCBE0958770105C3A2C7 /* IQKeyboardManagerSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		DE2F9A5CC5AA9995F5B18627DBA9BD22 /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				65F10B941808D22C3C4878AB4502AD4A /* Toast.swift */,
+				9D9D6DE977155D461342DC2F1EAA93DB /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		E058B8C58388EA800FD09736058D7F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
+				DB5C1D0D42834EEC9373E71B6760C7BE /* Pods_balance.framework */,
+				1438E977B03D513C3B1462B23A650FEA /* Pods_balance_balanceUITests.framework */,
+				D24B59290D425A47C1CBB51C507FEC63 /* Pods_balanceTests.framework */,
+				F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */,
+				D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */,
+				D88406395D59694151CB7E0A4F8E0347 /* WWCalendarTimeSelector.framework */,
+				D1B56989985428ADB03B7DF70D883C4F /* WWCalendarTimeSelectorStoryboardBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9D206BABE81E6BF0B9B23880B238CC7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */,
+				79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */,
+				A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */,
+				04D60AC13D33197690A05C641925DDDA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AFD86E2CB0C6804FFDEA10FE684AF82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE725E55DB3AF91F2FE7FC95F3392D4A /* WWCalendarTimeSelector-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F72A9B3D7FA57BA5008E3B4CFA8D889 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3689C1000CDACEB0231E1941C265D24B /* Pods-balance-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541A0721D8D26374CF7CF04B1473A45A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2024EE5E265681137A9FEBC630E6E0F1 /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8028B05BC0EE1FADB91C94CBF380F9BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAB61DCDE444629C7A3B1C4389D2921 /* Pods-balanceTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812EF8D6E60408411851483D17119BED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7635DCC029C954298681EA5F58862255 /* Pods-balance-balanceUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E96E7F98796026C6760BA3D13C69C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F75157A5075DECD1D4512F9A6744CA6 /* fts3_tokenizer.h in Headers */,
+				B1D89872AC365C78155FF44EE9F28FEF /* SQLite.h in Headers */,
+				18808F9C139BA0E9059E72980F0BF908 /* SQLite.swift-umbrella.h in Headers */,
+				EF5E32C13CFA779B953F8F81AE3C67D6 /* SQLiteObjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A6429FF0F9608A16E4D96813E85F23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A85277D0462C43B80A05E8822794BB /* IQKeyboardManagerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27D3095777D17F2083DFE0F12CB00D34 /* Pods-balanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D049DB7FC0853B8F4895DF700B46818F /* Build configuration list for PBXNativeTarget "Pods-balanceTests" */;
+			buildPhases = (
+				8028B05BC0EE1FADB91C94CBF380F9BB /* Headers */,
+				68068B6CA6A8AFEE818DC4CD7EB1D974 /* Sources */,
+				1A0319DC3386B59D6602012075BAF5BA /* Frameworks */,
+				902B813002DDC4E36EB8F30197585F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D93E5EFB9C7E8331759696AA2A9B75AE /* PBXTargetDependency */,
+			);
+			name = "Pods-balanceTests";
+			productName = "Pods-balanceTests";
+			productReference = D24B59290D425A47C1CBB51C507FEC63 /* Pods_balanceTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1D3A8318F603D191D121F70943FF08 /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				96E96E7F98796026C6760BA3D13C69C9 /* Headers */,
+				B91BEE056ED605FA41420BC2F6F79D91 /* Sources */,
+				A1DC26BE8ED6BB3E57EC282209CB9866 /* Frameworks */,
+				437C6008F3714B5A8E869C50746FC132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite.swift;
+			productName = SQLite.swift;
+			productReference = F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78C64BA317B75D3987836081F8A1FCA2 /* WWCalendarTimeSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EC441DD54EF8F580E1C32391C74B3F3 /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector" */;
+			buildPhases = (
+				3AFD86E2CB0C6804FFDEA10FE684AF82 /* Headers */,
+				AC53AC4FA2864B178E11A9B13EC17522 /* Sources */,
+				28F748D72B32BC0B3DEB91CF28949EF6 /* Frameworks */,
+				992A429B5FFCAE7A100D25B22842D4B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DCB7979B5A9F15269A7884E158D8F2A /* PBXTargetDependency */,
+			);
+			name = WWCalendarTimeSelector;
+			productName = WWCalendarTimeSelector;
+			productReference = D88406395D59694151CB7E0A4F8E0347 /* WWCalendarTimeSelector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81E56E5FBA5D813A40B45D4589A76D08 /* Pods-balance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E3B2AAA2E9CC33BE760DCFBBA1CF23 /* Build configuration list for PBXNativeTarget "Pods-balance" */;
+			buildPhases = (
+				3F72A9B3D7FA57BA5008E3B4CFA8D889 /* Headers */,
+				058235563C0B2F17C144C524E85619FF /* Sources */,
+				457D6BE4888E28DA50BD640F270A7450 /* Frameworks */,
+				2C2A9B732AE1EFF8593AC9EA685C9C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D4010ADA4DC9C37DBAD47193154D24 /* PBXTargetDependency */,
+				28BAF64A9750998E8AC0F00855046554 /* PBXTargetDependency */,
+				95A6E5C50A03A89C68042E9F215E4DA0 /* PBXTargetDependency */,
+				3703C244D6980D235585F3F009DD4EA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-balance";
+			productName = "Pods-balance";
+			productReference = DB5C1D0D42834EEC9373E71B6760C7BE /* Pods_balance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB73748774C4AE7CE5A579AE8E483C91 /* WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F135C23DD191478605877EEA3146D73B /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle" */;
+			buildPhases = (
+				9C40659DCBF49350BB01ECFF536BF327 /* Sources */,
+				19F94A898C5CB4CEAD838A7A149F9DAE /* Frameworks */,
+				A2C4295E5608408FF753E99A50E5EBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+			productName = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+			productReference = D1B56989985428ADB03B7DF70D883C4F /* WWCalendarTimeSelectorStoryboardBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7155AE59A19533F60ECE3B4045B01F0 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
+			buildPhases = (
+				F4A6429FF0F9608A16E4D96813E85F23 /* Headers */,
+				6C02E9CBF87ED8A1C6D8ED4C951F75A4 /* Sources */,
+				2C2292E431F316076553538B7FBB63C3 /* Frameworks */,
+				FAA5DA81F8292820D65F403E941074FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8C401847A53B4C2810311A8CBD715AD /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				541A0721D8D26374CF7CF04B1473A45A /* Headers */,
+				32133C6B0EACD421CB9EB1ABFCE89B97 /* Sources */,
+				6102CF7EA55F5A7D669F88BF0D1A701F /* Frameworks */,
+				8812DCC289D1E7BE07818E350A3B8656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D85686BBE694625F6F20BE4369E903D6 /* Pods-balance-balanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29AB3F5866CD9624A5889997F265B29 /* Build configuration list for PBXNativeTarget "Pods-balance-balanceUITests" */;
+			buildPhases = (
+				812EF8D6E60408411851483D17119BED /* Headers */,
+				94F3AB39121E152E309849AD85F47C5A /* Sources */,
+				C24B1B9721E6EB6573C59C76A5DC4635 /* Frameworks */,
+				066117119AE442AA685FA8BAF3B31C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5548448923EC5C04CE6E953A38179DBE /* PBXTargetDependency */,
+				3ED53A5ABEE24687BE77C721C7C3CB53 /* PBXTargetDependency */,
+				3370E8BB153092CC21DB8FC0775E5063 /* PBXTargetDependency */,
+				CDEF2D425A3726456BC1E501578793B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-balance-balanceUITests";
+			productName = "Pods-balance-balanceUITests";
+			productReference = 1438E977B03D513C3B1462B23A650FEA /* Pods_balance_balanceUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E058B8C58388EA800FD09736058D7F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */,
+				81E56E5FBA5D813A40B45D4589A76D08 /* Pods-balance */,
+				D85686BBE694625F6F20BE4369E903D6 /* Pods-balance-balanceUITests */,
+				27D3095777D17F2083DFE0F12CB00D34 /* Pods-balanceTests */,
+				3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */,
+				B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */,
+				78C64BA317B75D3987836081F8A1FCA2 /* WWCalendarTimeSelector */,
+				AB73748774C4AE7CE5A579AE8E483C91 /* WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		066117119AE442AA685FA8BAF3B31C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2A9B732AE1EFF8593AC9EA685C9C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437C6008F3714B5A8E869C50746FC132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8812DCC289D1E7BE07818E350A3B8656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902B813002DDC4E36EB8F30197585F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992A429B5FFCAE7A100D25B22842D4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1230752D752282FBB2D861E557061A /* WWCalendarTimeSelectorStoryboardBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C4295E5608408FF753E99A50E5EBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78095B727929AE197AD00137F0D35B5F /* WWCalendarTimeSelector.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5DA81F8292820D65F403E941074FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058235563C0B2F17C144C524E85619FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4C6149C0D4CDF364C60337328FFE95 /* Pods-balance-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32133C6B0EACD421CB9EB1ABFCE89B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B326644BB08AEDF697A82A0F1A66D68 /* Toast-Swift-dummy.m in Sources */,
+				4753716AE7A1AB22FB6BA61AA74D942F /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68068B6CA6A8AFEE818DC4CD7EB1D974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5099CC63F1118EC48DAE7A2991C36CD4 /* Pods-balanceTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C02E9CBF87ED8A1C6D8ED4C951F75A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE417BA9D13D2BB98316DF0512A1944 /* IQBarButtonItem.swift in Sources */,
+				4F0CF2AD58CF0D08BC090E7AF0DD63D7 /* IQInvocation.swift in Sources */,
+				3F091C427A3E96117C902E8EA143729E /* IQKeyboardManager.swift in Sources */,
+				C04C5F1F1D6B337F87E157B55A747E41 /* IQKeyboardManagerConstants.swift in Sources */,
+				102F4487BC4ADC3C2B56A0470E0A9468 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				B98378C55379E1B92897F11A22E38443 /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				4737103B10A1C40C5301D0512B9310E4 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				259D6FC80BCFE785471F743B1F533970 /* IQNSArray+Sort.swift in Sources */,
+				5044FEAEF09468B6964F9F37A1F1F45C /* IQPreviousNextView.swift in Sources */,
+				7FB3576FD619DD256294BAD7E5F83CBE /* IQTextView.swift in Sources */,
+				C35DCE97EB77150C41E735DB57BD6616 /* IQTitleBarButtonItem.swift in Sources */,
+				980E5594F8DBCE362764AEDC2F086E36 /* IQToolbar.swift in Sources */,
+				C0EB3776478AB80676E488BC9C9CDA3C /* IQUIScrollView+Additions.swift in Sources */,
+				4C069FA7FAA45154DA92CF5DF3BCDCA9 /* IQUITextFieldView+Additions.swift in Sources */,
+				8B439A47AA5FDEF67AD63BDDB808AC5A /* IQUIView+Hierarchy.swift in Sources */,
+				AE3B246482DCD60BA846EA3CE983A1FB /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				74341DA37F4B926FDF4CB2599CAC547A /* IQUIViewController+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F3AB39121E152E309849AD85F47C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D46662E090354D55FB377128617581 /* Pods-balance-balanceUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C40659DCBF49350BB01ECFF536BF327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC53AC4FA2864B178E11A9B13EC17522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE6DD9222C347A4E73E28704D90607D /* Duration.swift in Sources */,
+				0147E406621803BAB7BCE042925923B9 /* Int+Timepiece.swift in Sources */,
+				99619CFC4AE18681C16ACB8A9546E806 /* NSCalendar+Timepiece.swift in Sources */,
+				3A16D47B42888C300DE47F46A5848854 /* NSDate+Timepiece.swift in Sources */,
+				10427DA3A99FF5C6199081645909D625 /* NSDateComponents+Timepiece.swift in Sources */,
+				E091BBF88182A5BA410655D82D180DAD /* String+Timepiece.swift in Sources */,
+				AFE334F2B3A7682AC13782C78091FFC0 /* WWCalendarTimeSelector-dummy.m in Sources */,
+				AD184AD8807039BC3DD57F2972D80869 /* WWCalendarTimeSelector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91BEE056ED605FA41420BC2F6F79D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3A040DEACD188FBA57F28AFAADB057 /* AggregateFunctions.swift in Sources */,
+				2C4F38367FEF4F7C72224D9EB87B7F71 /* Blob.swift in Sources */,
+				188E0D4F7200FED3C7A1245F9F913072 /* Coding.swift in Sources */,
+				EE966B1A61C1960A3BBC22A783C27272 /* Collation.swift in Sources */,
+				16E32D96D226F5CA5ECE9021B4448A2C /* Connection.swift in Sources */,
+				1B13B36FAC4CB8F57794A2B328FDA679 /* CoreFunctions.swift in Sources */,
+				C64E97D5FC0802B08D7CA36AEC74A422 /* CustomFunctions.swift in Sources */,
+				A966409E4EB7EB56CBE6C9DFA0FC5B94 /* DateAndTimeFunctions.swift in Sources */,
+				5D1D42009E941070E4EDDE947A881181 /* Errors.swift in Sources */,
+				13DC37325FD7C005D5757A7A24879CFB /* Expression.swift in Sources */,
+				348B481DC980D7B5252368E2A54CFBF9 /* Foundation.swift in Sources */,
+				03F6349BC7F1C0F3BDFD63082CCE32DB /* FTS4.swift in Sources */,
+				A42659683986F68D9D4F244F1DB71C2F /* FTS5.swift in Sources */,
+				79E43357E56514CD6FE8A6F4B1D28C2E /* Helpers.swift in Sources */,
+				5AB7AA2D47C8BD4ED779FB58ADD2EB19 /* Operators.swift in Sources */,
+				444D048C8F52A4002F068AE6198AA5B7 /* Query.swift in Sources */,
+				4E3EDCB1C27B3725FD8AEFD7E61B9E17 /* RTree.swift in Sources */,
+				F6BB6C198A2522FF0633261964EB2A24 /* Schema.swift in Sources */,
+				D6E6E2AA38E0E6B0B7D1E0891F4FD12D /* Setter.swift in Sources */,
+				67F339D752FFF174485AB6F96EC6FA7E /* SQLite.swift-dummy.m in Sources */,
+				4A50D35274D871E14260F93489F87E32 /* SQLiteObjc.m in Sources */,
+				31AAD13A75FA67A504E265924E542827 /* Statement.swift in Sources */,
+				5BA891FB2BE2492499DD30FAD3D2F399 /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DCB7979B5A9F15269A7884E158D8F2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+			target = AB73748774C4AE7CE5A579AE8E483C91 /* WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle */;
+			targetProxy = 158FDC92075B4962DC5CC0E4C920D0FE /* PBXContainerItemProxy */;
+		};
+		28BAF64A9750998E8AC0F00855046554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = 9184630D14F5AF36AEAFA16CFBFD0A70 /* PBXContainerItemProxy */;
+		};
+		3370E8BB153092CC21DB8FC0775E5063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */;
+			targetProxy = E11DD158281DAE8B540F389C48F7697C /* PBXContainerItemProxy */;
+		};
+		3703C244D6980D235585F3F009DD4EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WWCalendarTimeSelector;
+			target = 78C64BA317B75D3987836081F8A1FCA2 /* WWCalendarTimeSelector */;
+			targetProxy = E1A1D9E9269C07D9CD6237A2F7AB3DFB /* PBXContainerItemProxy */;
+		};
+		3ED53A5ABEE24687BE77C721C7C3CB53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = D0023CE96C0C427622D048694401D82D /* PBXContainerItemProxy */;
+		};
+		5548448923EC5C04CE6E953A38179DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = 8C52C626AC0FB73AB439F1E1B1A3CF48 /* PBXContainerItemProxy */;
+		};
+		95A6E5C50A03A89C68042E9F215E4DA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */;
+			targetProxy = 18371A048DB59768D7E5E950CE174C7C /* PBXContainerItemProxy */;
+		};
+		CDEF2D425A3726456BC1E501578793B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WWCalendarTimeSelector;
+			target = 78C64BA317B75D3987836081F8A1FCA2 /* WWCalendarTimeSelector */;
+			targetProxy = 384FA6D1FD4A521BD97A713EED4CC81B /* PBXContainerItemProxy */;
+		};
+		D8D4010ADA4DC9C37DBAD47193154D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = 8628D7469F6FE15338006799A990B6AC /* PBXContainerItemProxy */;
+		};
+		D93E5EFB9C7E8331759696AA2A9B75AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-balance";
+			target = 81E56E5FBA5D813A40B45D4589A76D08 /* Pods-balance */;
+			targetProxy = AEB888AB5B0E38426B317416AAAF75C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03E76E2FE0A9366114F81640AA5875EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C01D88CADBD3A0EB62D94C9689E4DF /* Toast-Swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Toast-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		087D8A18252416766B25947B639BE310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		12E2DBD2EBFEA585EEDAD4B25B676BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3233B961112A20A1D493A8BDCE65AFE /* WWCalendarTimeSelector.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WWCalendarTimeSelector";
+				IBSC_MODULE = WWCalendarTimeSelector;
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-WWCalendarTimeSelector-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WWCalendarTimeSelectorStoryboardBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		15418D497C951AE519FE18044E619CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1682C56D3CDB744EF39F85210E150840 /* SQLite.swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F74171A7611C7EED9949AC73CBE2C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02354CB70231A14B4F865FC952146DC4 /* Pods-balance.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-balance/Pods-balance-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-balance/Pods-balance.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BE7200682DA3DD02079CC5BBF5E56EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0E7263DA9C5C97032927A6A1DAE14C /* IQKeyboardManagerSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		486F94E4DE1B8279581105AF5CBFC415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3233B961112A20A1D493A8BDCE65AFE /* WWCalendarTimeSelector.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector.modulemap";
+				PRODUCT_MODULE_NAME = WWCalendarTimeSelector;
+				PRODUCT_NAME = WWCalendarTimeSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		621489C62CA6838F00BDD3E1163AD7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF454D609B5D229F93AF4A00A811AD8F /* Pods-balanceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-balanceTests/Pods-balanceTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-balanceTests/Pods-balanceTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FE594D3975D89F427F5BADE89FBA9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90CDE23E7A7C0F98B57FA63BFFFE7128 /* SQLite.swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		839797CA2171BA71972F5142E2E6B310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89C09F4E4275C76E12D1EF3BDD8658E /* Pods-balanceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-balanceTests/Pods-balanceTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-balanceTests/Pods-balanceTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DF3DD02DA3FC23B494F844A734B557F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1085DAC55EBF86CA6891E0D32C0DF3BE /* WWCalendarTimeSelector.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector.modulemap";
+				PRODUCT_MODULE_NAME = WWCalendarTimeSelector;
+				PRODUCT_NAME = WWCalendarTimeSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A32AC0063762EFD4CFB59628CAA2B973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E707832D72D9039BD24212D0185329 /* Pods-balance-balanceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-balance-balanceUITests/Pods-balance-balanceUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-balance-balanceUITests/Pods-balance-balanceUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B40C845BEB4D41BE403AD4466C2D7812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F312E7F072BFD8388D16CEC62000D3 /* Pods-balance-balanceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-balance-balanceUITests/Pods-balance-balanceUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-balance-balanceUITests/Pods-balance-balanceUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B81EA069EF5B308E06B9DAFF7DE5BC99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FD8E6917F99E0891214583F9E35DE9 /* Pods-balance.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-balance/Pods-balance-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-balance/Pods-balance.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C646B80E4D8A9B6FB6B471288AD9746F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0530594AB9D40F0A0B27DEC8312DA0EA /* Toast-Swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Toast-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D37CD465EC03E96673A76466BB806A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ECD830E9FF60065425D88BB789C29686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242F3F89877CCCBE0958770105C3A2C7 /* IQKeyboardManagerSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFBE24189DAF3F10343960A1EFDE8C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1085DAC55EBF86CA6891E0D32C0DF3BE /* WWCalendarTimeSelector.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WWCalendarTimeSelector";
+				IBSC_MODULE = WWCalendarTimeSelector;
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-WWCalendarTimeSelector-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WWCalendarTimeSelectorStoryboardBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EC441DD54EF8F580E1C32391C74B3F3 /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486F94E4DE1B8279581105AF5CBFC415 /* Debug */,
+				9DF3DD02DA3FC23B494F844A734B557F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37CD465EC03E96673A76466BB806A2C /* Debug */,
+				087D8A18252416766B25947B639BE310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1D3A8318F603D191D121F70943FF08 /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE594D3975D89F427F5BADE89FBA9D3 /* Debug */,
+				15418D497C951AE519FE18044E619CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29AB3F5866CD9624A5889997F265B29 /* Build configuration list for PBXNativeTarget "Pods-balance-balanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40C845BEB4D41BE403AD4466C2D7812 /* Debug */,
+				A32AC0063762EFD4CFB59628CAA2B973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7155AE59A19533F60ECE3B4045B01F0 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE7200682DA3DD02079CC5BBF5E56EB /* Debug */,
+				ECD830E9FF60065425D88BB789C29686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8C401847A53B4C2810311A8CBD715AD /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C646B80E4D8A9B6FB6B471288AD9746F /* Debug */,
+				03E76E2FE0A9366114F81640AA5875EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E3B2AAA2E9CC33BE760DCFBBA1CF23 /* Build configuration list for PBXNativeTarget "Pods-balance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B81EA069EF5B308E06B9DAFF7DE5BC99 /* Debug */,
+				2F74171A7611C7EED9949AC73CBE2C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D049DB7FC0853B8F4895DF700B46818F /* Build configuration list for PBXNativeTarget "Pods-balanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839797CA2171BA71972F5142E2E6B310 /* Debug */,
+				621489C62CA6838F00BDD3E1163AD7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F135C23DD191478605877EEA3146D73B /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E2DBD2EBFEA585EEDAD4B25B676BE0 /* Debug */,
+				FFBE24189DAF3F10343960A1EFDE8C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
